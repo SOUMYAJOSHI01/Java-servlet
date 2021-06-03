@@ -28,17 +28,3 @@ public class HelloWorld extends HttpServlet {
 
 
 
-web.xml file
-
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app>
-<servlet>
-   <servlet-name>HelloWorld</servlet-name>
-   <servlet-class>HelloWorld</servlet-class>
-</servlet>
-
-<servlet-mapping>
-   <servlet-name>HelloWorld</servlet-name>
-   <url-pattern>/HelloWorld</url-pattern>
-</servlet-mapping>
-</web-app>
